@@ -1,3 +1,10 @@
+## 1.10
+
+* Switched from Gradle to Maven again.
+* Changed Maven coordinates to `com.github.arvacims:json-patch` as the original repository is not maintained.
+* Copied & pasted all the source code of the main dependency `com.github.fge:jackson-coreutils:1.8` into this project.
+* Updated all dependencies (compile, provided, and test) to their latest version (and fixed one trivial compile error).
+
 ## 1.9
 
 * Completely new JSON diff implementation; less smart than the previous one but bug free

@@ -7,7 +7,7 @@ This project, as of version 1.4, is licensed under both LGPLv3 and ASL 2.0. See 
 
 This is an implementation of [RFC 6902 (JSON Patch)](http://tools.ietf.org/html/rfc6902) and
 [RFC 7386 (JSON Merge Patch)](http://tools.ietf.org/html/rfc7386) written in Java, which uses
-[Jackson](https://github.com/FasterXML/jackson-databind) (2.2.x) at its core.
+[Jackson](https://github.com/FasterXML/jackson-databind) (2.9.x) at its core.
 
 Its features are:
 
@@ -17,7 +17,7 @@ Its features are:
 
 ## Versions
 
-The current version is **1.9**. See file `RELEASE-NOTES.md` for details.
+The current version is **1.10**. See file `RELEASE-NOTES.md` for details.
 
 ## Using it in your project
 
