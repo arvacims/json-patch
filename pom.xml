@@ -5,7 +5,7 @@
 
     <groupId>com.github.arvacims</groupId>
     <artifactId>json-patch</artifactId>
-    <version>1.10-SNAPSHOT</version>
+    <version>1.10</version>
     <packaging>jar</packaging>
 
     <name>json-patch</name>
