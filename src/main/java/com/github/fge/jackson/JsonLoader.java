@@ -20,7 +20,7 @@
 package com.github.fge.jackson;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.google.common.base.Objects;
+import com.google.common.base.MoreObjects;
 import com.google.common.base.Preconditions;
 import com.google.common.io.Closer;
 
@@ -80,7 +80,7 @@ public final class JsonLoader
         URL url;
         url = JsonLoader.class.getResource(resource);
         if (url == null) {
-            final ClassLoader classLoader = Objects.firstNonNull(
+            final ClassLoader classLoader = MoreObjects.firstNonNull(
                 Thread.currentThread().getContextClassLoader(),
                 JsonLoader.class.getClassLoader()
             );
